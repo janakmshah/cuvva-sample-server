@@ -1508,7 +1508,5 @@ app.get('/', function(req, res) {
 });
 
 app.listen(port, function() {
-    console.log(dateString);
-    console.log(hourAgoString);
     console.log('App is running on http://localhost:' + port);
 });
