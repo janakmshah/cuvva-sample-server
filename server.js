@@ -1487,7 +1487,7 @@ app.get('/', function(req, res) {
    },
    {  
       "type":"policy_financial_transaction",
-      "timestamp":"2019-02-04T18:08:08.481Z",
+      "timestamp":hourAgoString,
       "unique_key":"transaction:dev_tx_000000BbUyt6hezfgftYZR6icBOCm",
       "payload":{  
          "policy_id":"dev_pol_000000BbUyt6hezfg0yY3Jqg8i7xw",
