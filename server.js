@@ -11,10 +11,10 @@ var port = process.env.PORT || 5000;
 
 const dateToday = new Date();
 const dateString = dateToday.toISOString()
-const hourAgo = new Date(new Date().setHours(dateToday.getHours() - 1));
-const hourAgoString = hourAgo.toISOString()
-const hourFromNow = new Date(new Date().setHours(dateToday.getHours() + 1));
-const hourFromNowString = hourFromNow.toISOString()
+const startTime = new Date(new Date().setMinutes(dateToday.getMinutes() - 13));
+const startTimeString = startTime.toISOString()
+const endTime = new Date(new Date().setMinutes(dateToday.getMinutes() + 47));
+const endTimeString = endTime.toISOString()
 
 app.get('/', function(req, res) {
     res.json([  
@@ -1460,7 +1460,7 @@ app.get('/', function(req, res) {
    },
    {  
       "type":"policy_created",
-      "timestamp":hourAgoString,
+      "timestamp":startTimeString,
       "unique_key":"policy:dev_pol_000000BbUyt6hezfg0yY3Jqg8i7xw",
       "payload":{  
          "user_id":"user_000000BSJ47k7mKYfWUhkWOrxLYGm",
@@ -1468,8 +1468,8 @@ app.get('/', function(req, res) {
          "policy_id":"dev_pol_000000BbUyt6hezfg0yY3Jqg8i7xw",
          "original_policy_id":"dev_pol_000000BbUt5Hp0PqXdbB3kmxXrcky",
          "reference_code":"PFKAJNETQW",
-         "start_date":hourAgoString,
-         "end_date":hourFromNowString,
+         "start_date":startTimeString,
+         "end_date":endTimeString,
          "incident_phone":"+442038287127",
          "vehicle":{  
             "vrm":"LB07SEO",
@@ -1487,7 +1487,7 @@ app.get('/', function(req, res) {
    },
    {  
       "type":"policy_financial_transaction",
-      "timestamp":hourAgoString,
+      "timestamp":startTimeString,
       "unique_key":"transaction:dev_tx_000000BbUyt6hezfgftYZR6icBOCm",
       "payload":{  
          "policy_id":"dev_pol_000000BbUyt6hezfg0yY3Jqg8i7xw",
