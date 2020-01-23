@@ -1,13 +1,11 @@
 {
-  "name": "dvla-node",
-  "description": "Our sample Node to Heroku app",
+  "name": "cuvva-test",
+  "description": "Cuvva test json",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "ejs": "~1.0.0",
-    "express": "^4.17.1",
-    "express-prettify": "^0.1.1"
+    "express": "^4.17.1"
   }
 }
