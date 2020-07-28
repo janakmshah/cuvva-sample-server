@@ -9,14 +9,15 @@ app.set('json spaces', 2);
 // process.env.PORT lets the port be set by Heroku
 var port = process.env.PORT || 5000;
 
-const dateToday = new Date();
-const dateString = dateToday.toISOString()
-const startTime = new Date(new Date().setMinutes(dateToday.getMinutes() - 13));
-const startTimeString = startTime.toISOString()
-const endTime = new Date(new Date().setMinutes(dateToday.getMinutes() + 47));
-const endTimeString = endTime.toISOString()
-
 app.get('/', function(req, res) {
+
+   const dateToday = new Date();
+   const dateString = dateToday.toISOString()
+   const startTime = new Date(new Date().setMinutes(dateToday.getMinutes() - 13));
+   const startTimeString = startTime.toISOString()
+   const endTime = new Date(new Date().setMinutes(dateToday.getMinutes() + 47));
+   const endTimeString = endTime.toISOString()
+
     res.json([  
    {  
       "type":"policy_created",
