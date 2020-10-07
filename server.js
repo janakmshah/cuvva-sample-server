@@ -129,7 +129,7 @@ app.get('/', function (req, res) {
          "type": "policy_cancelled",
          "timestamp": "2020-05-11T10:45:48.669Z",
          "policy_id": "dev_pol_0000006",
-         "type": "void",
+         "cancellation_type": "void",
          "new_end_date": null
       },
    ]);
