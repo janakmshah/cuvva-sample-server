@@ -21,116 +21,134 @@ app.get('/', function (req, res) {
    res.json([
       {
          "type": "policy_created",
-         "timestamp": startTimeString,
-         "policy_id": "dev_pol_0000003",
-         "start_date": startTimeString,
-         "end_date": endTimeString,
-         "vehicle": {
-            "prettyVrm": "MA77 GRO",
-            "make": "Volkswagen",
-            "model": "Polo",
-            "variant": "SE 16V",
-            "color": "Silver"
+         "payload": {
+            "timestamp": startTimeString,
+            "policy_id": "dev_pol_0000003",
+            "start_date": startTimeString,
+            "end_date": endTimeString,
+            "vehicle": {
+               "prettyVrm": "MA77 GRO",
+               "make": "Volkswagen",
+               "model": "Polo",
+               "variant": "SE 16V",
+               "color": "Silver"
+            }
          }
       },
       {
          "type": "policy_created",
-         "timestamp": "2019-04-17T10:15:29.979Z",
-         "policy_id": "dev_pol_0000001",
-         "start_date": "2019-04-17T10:15:30.000Z",
-         "end_date": "2019-04-17T11:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "MA77 GRO",
-            "make": "Volkswagen",
-            "model": "Polo",
-            "variant": "SE 16V",
-            "color": "Silver"
+         "payload": {
+            "timestamp": "2019-04-17T10:15:29.979Z",
+            "policy_id": "dev_pol_0000001",
+            "start_date": "2019-04-17T10:15:30.000Z",
+            "end_date": "2019-04-17T11:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "MA77 GRO",
+               "make": "Volkswagen",
+               "model": "Polo",
+               "variant": "SE 16V",
+               "color": "Silver"
+            }
          }
       },
       {
          "type": "policy_created",
-         "timestamp": "2019-04-19T19:15:29.979Z",
-         "policy_id": "dev_pol_0000002",
-         "start_date": "2019-04-19T19:15:30.000Z",
-         "end_date": "2019-04-20T00:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "MA77 GRO",
-            "make": "Volkswagen",
-            "model": "Polo",
-            "variant": "SE 16V",
-            "color": "Silver"
+         "payload": {
+            "timestamp": "2019-04-19T19:15:29.979Z",
+            "policy_id": "dev_pol_0000002",
+            "start_date": "2019-04-19T19:15:30.000Z",
+            "end_date": "2019-04-20T00:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "MA77 GRO",
+               "make": "Volkswagen",
+               "model": "Polo",
+               "variant": "SE 16V",
+               "color": "Silver"
+            }
          }
       },
       {
          "type": "policy_created",
-         "timestamp": "2020-03-19T19:15:29.979Z",
-         "policy_id": "dev_pol_0000008",
-         "start_date": "2020-03-19T19:15:30.000Z",
-         "end_date": "2020-03-20T00:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "HA15 SIN",
-            "make": "Mercedes Benz",
-            "model": "A35",
-            "variant": "AMG",
-            "color": "Mountain Grey"
+         "payload": {
+            "timestamp": "2020-03-19T19:15:29.979Z",
+            "policy_id": "dev_pol_0000008",
+            "start_date": "2020-03-19T19:15:30.000Z",
+            "end_date": "2020-03-20T00:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "HA15 SIN",
+               "make": "Mercedes Benz",
+               "model": "A35",
+               "variant": "AMG",
+               "color": "Mountain Grey"
+            }
          }
       },
       {
          "type": "policy_created",
-         "timestamp": "2020-04-19T19:15:29.979Z",
-         "policy_id": "dev_pol_0000004",
-         "start_date": "2020-04-19T19:15:30.000Z",
-         "end_date": "2020-04-20T00:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "HA15 SIN",
-            "make": "Mercedes Benz",
-            "model": "A35",
-            "variant": "AMG",
-            "color": "Mountain Grey"
+         "payload": {
+            "timestamp": "2020-04-19T19:15:29.979Z",
+            "policy_id": "dev_pol_0000004",
+            "start_date": "2020-04-19T19:15:30.000Z",
+            "end_date": "2020-04-20T00:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "HA15 SIN",
+               "make": "Mercedes Benz",
+               "model": "A35",
+               "variant": "AMG",
+               "color": "Mountain Grey"
+            }
          }
       },
       {
          "type": "policy_extension",
-         "timestamp": "2020-04-20T00:15:30.000Z",
-         "policy_id": "dev_pol_0000005",
-         "original_policy_id": "dev_pol_0000004",
-         "start_date": "2020-04-20T00:15:30.000Z",
-         "end_date": "2020-04-20T05:15:30.000Z"
-      },
-      {
-         "type": "policy_created",
-         "timestamp": "2020-05-11T10:15:29.979Z",
-         "policy_id": "dev_pol_0000006",
-         "start_date": "2020-05-11T10:15:30.000Z",
-         "end_date": "2020-05-11T11:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "RA64 ELA",
-            "make": "Fiat",
-            "model": "Doblo",
-            "variant": null,
-            "color": "Red"
+         "payload": {
+            "timestamp": "2020-04-20T00:15:30.000Z",
+            "policy_id": "dev_pol_0000005",
+            "original_policy_id": "dev_pol_0000004",
+            "start_date": "2020-04-20T00:15:30.000Z",
+            "end_date": "2020-04-20T05:15:30.000Z"
          }
       },
       {
          "type": "policy_created",
-         "timestamp": "2020-05-12T10:15:29.979Z",
-         "policy_id": "dev_pol_0000007",
-         "start_date": "2020-05-12T10:15:30.000Z",
-         "end_date": "2020-05-12T11:15:30.000Z",
-         "vehicle": {
-            "prettyVrm": "RA64 ELA",
-            "make": "Fiat",
-            "model": "Doblo",
-            "variant": null,
-            "color": "Red"
+         "payload": {
+            "timestamp": "2020-05-11T10:15:29.979Z",
+            "policy_id": "dev_pol_0000006",
+            "start_date": "2020-05-11T10:15:30.000Z",
+            "end_date": "2020-05-11T11:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "RA64 ELA",
+               "make": "Fiat",
+               "model": "Doblo",
+               "variant": null,
+               "color": "Red"
+            }
+         }
+      },
+      {
+         "type": "policy_created",
+         "payload": {
+            "timestamp": "2020-05-12T10:15:29.979Z",
+            "policy_id": "dev_pol_0000007",
+            "start_date": "2020-05-12T10:15:30.000Z",
+            "end_date": "2020-05-12T11:15:30.000Z",
+            "vehicle": {
+               "prettyVrm": "RA64 ELA",
+               "make": "Fiat",
+               "model": "Doblo",
+               "variant": null,
+               "color": "Red"
+            }
          }
       },
       {
          "type": "policy_cancelled",
-         "timestamp": "2020-05-11T10:45:48.669Z",
-         "policy_id": "dev_pol_0000006",
-         "cancellation_type": "void",
-         "new_end_date": null
+         "payload": {
+            "timestamp": "2020-05-11T10:45:48.669Z",
+            "policy_id": "dev_pol_0000006",
+            "cancellation_type": "void",
+            "new_end_date": null
+         }
       },
    ]);
 });
