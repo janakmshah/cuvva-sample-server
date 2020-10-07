@@ -31,7 +31,8 @@ app.get('/', function (req, res) {
                "make": "Volkswagen",
                "model": "Polo",
                "variant": "SE 16V",
-               "color": "Silver"
+               "color": "Silver",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor pulvinar, lacinia leo sit amet, iaculis ligula. Maecenas accumsan condimentum lectus, posuere finibus lorem sollicitudin non."
             }
          }
       },
@@ -47,7 +48,8 @@ app.get('/', function (req, res) {
                "make": "Volkswagen",
                "model": "Polo",
                "variant": "SE 16V",
-               "color": "Silver"
+               "color": "Silver",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor pulvinar, lacinia leo sit amet, iaculis ligula. Maecenas accumsan condimentum lectus, posuere finibus lorem sollicitudin non."
             }
          }
       },
@@ -63,7 +65,8 @@ app.get('/', function (req, res) {
                "make": "Volkswagen",
                "model": "Polo",
                "variant": "SE 16V",
-               "color": "Silver"
+               "color": "Silver",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor pulvinar, lacinia leo sit amet, iaculis ligula. Maecenas accumsan condimentum lectus, posuere finibus lorem sollicitudin non."
             }
          }
       },
@@ -79,7 +82,8 @@ app.get('/', function (req, res) {
                "make": "Mercedes Benz",
                "model": "A35",
                "variant": "AMG",
-               "color": "Mountain Grey"
+               "color": "Mountain Grey",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             }
          }
       },
@@ -95,7 +99,8 @@ app.get('/', function (req, res) {
                "make": "Mercedes Benz",
                "model": "A35",
                "variant": "AMG",
-               "color": "Mountain Grey"
+               "color": "Mountain Grey",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             }
          }
       },
@@ -121,7 +126,8 @@ app.get('/', function (req, res) {
                "make": "Fiat",
                "model": "Doblo",
                "variant": null,
-               "color": "Red"
+               "color": "Red",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor pulvinar, lacinia leo sit amet, iaculis ligula. Maecenas accumsan condimentum lectus, posuere finibus lorem sollicitudin non. Ut lobortis maximus odio nec laoreet. Phasellus congue maximus viverra. Cras ac mauris vitae leo pretium pellentesque sit amet non leo."
             }
          }
       },
@@ -137,7 +143,8 @@ app.get('/', function (req, res) {
                "make": "Fiat",
                "model": "Doblo",
                "variant": null,
-               "color": "Red"
+               "color": "Red",
+               "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor pulvinar, lacinia leo sit amet, iaculis ligula. Maecenas accumsan condimentum lectus, posuere finibus lorem sollicitudin non. Ut lobortis maximus odio nec laoreet. Phasellus congue maximus viverra. Cras ac mauris vitae leo pretium pellentesque sit amet non leo."
             }
          }
       },
