@@ -1,3 +1,3 @@
-# dvla-node
+# cuvva-sample-server
 
-update me
+Test JSON response for candidates to use when completing the tech test
